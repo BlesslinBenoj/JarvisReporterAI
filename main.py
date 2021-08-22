@@ -18,7 +18,7 @@ def cmd():
     with sr.Microphone() as Source:
         print('Clearing the background noices...')
         recognizer.adjust_for_ambient_noice(Source , duration = 0.5)
-        print('Ask me anything...')
+        print('Ask me anything..')
         recordaudio = recognizer.listen(Source , timeout = 1)
         print('Done recording.')
     try:
