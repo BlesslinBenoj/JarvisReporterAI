@@ -12,7 +12,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice' , voices[1].id)
 recognizer = sr.Recognizer()
 
-#COM
+#COMM
 
 def cmd():
     with sr.Microphone() as Source:
