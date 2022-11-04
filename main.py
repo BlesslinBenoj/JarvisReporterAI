@@ -1,4 +1,4 @@
-#MODUL
+#MODULE
 
 import speech_recognition as sr
 from GoogleNews import GoogleNews
