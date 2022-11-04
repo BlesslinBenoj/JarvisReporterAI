@@ -4,7 +4,7 @@ import speech_recognition as sr
 from GoogleNews import GoogleNews
 import pyttsx3
 
-#INITIAL
+#INITIALIZATION
 
 googlenews = GoogleNews()
 engine = pyttsx3.init()
